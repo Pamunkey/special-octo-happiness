@@ -40,3 +40,9 @@ disclosure of security bugs. In those cases, please go through the process
 outlined on that page and do not file a public issue.
 
 ## Coding Style
+
+We use the [Rust style guide](https://github.com/rust-lang-nursery/fmt-rfcs/blob/master/guide/guide.md).
+
+## License
+By contributing to rust-curve25519-fiat, you agree that your contributions will be licensed
+under the LICENSE file in the root directory of this source tree.
