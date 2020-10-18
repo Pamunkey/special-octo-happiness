@@ -11,3 +11,7 @@ This library is deprecated by the
 distribution of the formally-verified code from the [MIT fiat-crypto project](https://github.com/mit-plv/fiat-crypto).
 
 ## Evolution
+
+This library is at an experimental stage and its API may encountner significant evolutions in the future.
+
+## LICENSE
