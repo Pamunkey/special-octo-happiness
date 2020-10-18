@@ -1,0 +1,6 @@
+
+[package]
+name = "curve25519-fiat"
+build = "build.rs"
+version = "0.1.4"
+authors = ["François Garillot <fga@fb.com>"]

@@ -15,3 +15,4 @@ distribution of the formally-verified code from the [MIT fiat-crypto project](ht
 This library is at an experimental stage and its API may encountner significant evolutions in the future.
 
 ## LICENSE
+rust-curve25519-dalek is Apache-2.0 licensed, as found in the [LICENSE](https://github.com/facebookexperimental/rust-curve25519-fiat/blob/master/LICENSE) file.
