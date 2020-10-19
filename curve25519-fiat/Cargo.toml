@@ -9,3 +9,9 @@ repository = "https://github.com/facebookexperimental/rust-curve25519-fiat"
 readme = "README.md"
 license = "Apache-2.0"
 edition="2018"
+
+[build-dependencies]
+sha2 = "0.8.0"
+
+[lib]
+test = false # we have no unit tests
