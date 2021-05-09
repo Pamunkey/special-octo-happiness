@@ -13,4 +13,4 @@
 // limitations under the License.
 
 use std::path::PathBuf;
-use std::{env, process::Comm
+use std::{env, process::Command};
