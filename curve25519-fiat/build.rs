@@ -15,4 +15,4 @@
 use std::path::PathBuf;
 use std::{env, process::Command};
 
-macro_rules! get(($n
+macro_rules! get(($name:expr)
