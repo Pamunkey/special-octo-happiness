@@ -16,4 +16,4 @@ use std::path::PathBuf;
 use std::{env, process::Command};
 
 macro_rules! get(($name:expr) => (ok!(env::var($name))));
-macro_rules! ok(($expres
+macro_rules! ok(($expression:
