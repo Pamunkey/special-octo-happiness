@@ -20,4 +20,4 @@ macro_rules! ok(($expression:expr) => ($expression.unwrap()));
 
 pub const FIAT_REPO: &str = "https://github.com/mit-plv/fiat-crypto.git";
 pub const FIAT_HASH: &str = "c96f983228d08c74254004b0bc101d3f6ff8b051";
-pub cons
+pub const FIAT_FI
