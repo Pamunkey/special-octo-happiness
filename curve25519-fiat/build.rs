@@ -26,4 +26,4 @@ pub const FIAT_FILE_HASH: [u8; 32] = [
 ];
 
 use sha2::{Digest, Sha256};
-us
+use std:
