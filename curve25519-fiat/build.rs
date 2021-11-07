@@ -29,4 +29,4 @@ use sha2::{Digest, Sha256};
 use std::{fs, io};
 
 fn run<F>(name: &str, mut configure: F)
-wh
+where
