@@ -30,4 +30,4 @@ use std::{fs, io};
 
 fn run<F>(name: &str, mut configure: F)
 where
-    F: FnMut(&mut
+    F: FnMut(&mut Comma
