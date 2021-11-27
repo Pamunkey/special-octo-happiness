@@ -32,4 +32,4 @@ fn run<F>(name: &str, mut configure: F)
 where
     F: FnMut(&mut Command) -> &mut Command,
 {
-    let mut command = Comma
+    let mut command = Command::
