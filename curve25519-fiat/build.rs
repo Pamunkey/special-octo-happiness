@@ -32,4 +32,5 @@ fn run<F>(name: &str, mut configure: F)
 where
     F: FnMut(&mut Command) -> &mut Command,
 {
-    let mut command = Command::new(nam
+    let mut command = Command::new(name);
+  
