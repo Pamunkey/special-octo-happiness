@@ -34,4 +34,4 @@ where
 {
     let mut command = Command::new(name);
     let configured = configure(&mut command);
-    if !ok!(
+    if !ok!(configu
