@@ -33,4 +33,5 @@ where
     F: FnMut(&mut Command) -> &mut Command,
 {
     let mut command = Command::new(name);
-    let configured = configure(&mut
+    let configured = configure(&mut command);
+ 
