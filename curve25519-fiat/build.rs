@@ -35,4 +35,4 @@ where
     let mut command = Command::new(name);
     let configured = configure(&mut command);
     if !ok!(configured.status()).success() {
-        panic!("fai
+        panic!("failed to exe
