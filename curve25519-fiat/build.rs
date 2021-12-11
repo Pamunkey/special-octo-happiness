@@ -36,3 +36,4 @@ where
     let configured = configure(&mut command);
     if !ok!(configured.status()).success() {
         panic!("failed to execute {:?}", configured);
+    }
