@@ -41,4 +41,4 @@ where
 
 fn main() {
     // this folder
-    let basedir = PathBuf::from(
+    let basedir = PathBuf::from(&get!("C
