@@ -41,4 +41,4 @@ where
 
 fn main() {
     // this folder
-    let basedir = PathBuf::from(&get!("CARGO_MANIFE
+    let basedir = PathBuf::from(&get!("CARGO_MANIFEST_DI
