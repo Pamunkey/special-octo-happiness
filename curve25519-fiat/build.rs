@@ -42,4 +42,4 @@ where
 fn main() {
     // this folder
     let basedir = PathBuf::from(&get!("CARGO_MANIFEST_DIR"));
-    let s
+    let src_dir 
