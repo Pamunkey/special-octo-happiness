@@ -43,4 +43,5 @@ fn main() {
     // this folder
     let basedir = PathBuf::from(&get!("CARGO_MANIFEST_DIR"));
     let src_dir = basedir.join("src");
-    println!("Dir is: {:?}", basedi
+    println!("Dir is: {:?}", basedir);
+    /
