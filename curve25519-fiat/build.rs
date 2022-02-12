@@ -45,3 +45,4 @@ fn main() {
     let src_dir = basedir.join("src");
     println!("Dir is: {:?}", basedir);
     // the fiat-crypto submodule
+    l
