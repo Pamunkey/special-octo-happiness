@@ -47,4 +47,4 @@ fn main() {
     // the fiat-crypto submodule
     let fiat_crypto = basedir.join("external").join("fiat-crypto");
 
-    // this ised to do a submodule update
+    // this ised to do a submodule update, se
