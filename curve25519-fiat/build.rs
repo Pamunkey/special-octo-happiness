@@ -48,4 +48,4 @@ fn main() {
     let fiat_crypto = basedir.join("external").join("fiat-crypto");
 
     // this ised to do a submodule update, see
-    // https://github.com/google/shaderc-rs/issues/15 fo
+    // https://github.com/google/shaderc-rs/issues/15 for why it
