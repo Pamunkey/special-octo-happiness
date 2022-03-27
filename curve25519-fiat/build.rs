@@ -50,4 +50,5 @@ fn main() {
     // this ised to do a submodule update, see
     // https://github.com/google/shaderc-rs/issues/15 for why it does not any
     // more
-    let src_path = fiat_cry
+    let src_path = fiat_crypto
+ 
