@@ -50,4 +50,4 @@ fn main() {
     // this ised to do a submodule update, see
     // https://github.com/google/shaderc-rs/issues/15 for why it does not any
     // more
-    let src_path 
+    let src_path = fia
