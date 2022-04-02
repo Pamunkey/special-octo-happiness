@@ -51,4 +51,5 @@ fn main() {
     // https://github.com/google/shaderc-rs/issues/15 for why it does not any
     // more
     let src_path = fiat_crypto
-        .join("fiat-ru
+        .join("fiat-rust")
+   
