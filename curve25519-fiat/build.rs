@@ -52,4 +52,5 @@ fn main() {
     // more
     let src_path = fiat_crypto
         .join("fiat-rust")
-        .join("
+        .join("src")
+ 
