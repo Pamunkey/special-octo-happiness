@@ -54,4 +54,4 @@ fn main() {
         .join("fiat-rust")
         .join("src")
         .join("curve25519_64.rs");
-    let cond
+    let cond = i
