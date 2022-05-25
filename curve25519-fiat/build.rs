@@ -56,4 +56,4 @@ fn main() {
         .join("curve25519_64.rs");
     let cond = if let Ok(mut file) = fs::File::open(src_path) {
         let mut sha256 = Sha256::new();
-        io::copy(&mut file
+        io::copy(&mut file, &mut s
