@@ -57,4 +57,5 @@ fn main() {
     let cond = if let Ok(mut file) = fs::File::open(src_path) {
         let mut sha256 = Sha256::new();
         io::copy(&mut file, &mut sha256).expect("failed to copy file");
-        let hash = sha256.result(
+        let hash = sha256.result();
+   
