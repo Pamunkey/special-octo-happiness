@@ -59,3 +59,4 @@ fn main() {
         io::copy(&mut file, &mut sha256).expect("failed to copy file");
         let hash = sha256.result();
         hash[..] == FIAT_FILE_HASH
+    } else
