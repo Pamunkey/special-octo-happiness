@@ -60,4 +60,5 @@ fn main() {
         let hash = sha256.result();
         hash[..] == FIAT_FILE_HASH
     } else {
-        f
+        false
+    };
