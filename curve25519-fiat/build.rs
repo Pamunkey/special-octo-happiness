@@ -63,4 +63,4 @@ fn main() {
         false
     };
     // Go to the fiat directory
-    if !cond && !fiat_
+    if !cond && !fiat_crypt
