@@ -63,4 +63,4 @@ fn main() {
         false
     };
     // Go to the fiat directory
-    if !cond && !fiat_crypto.join(".git").
+    if !cond && !fiat_crypto.join(".git").exists() {
