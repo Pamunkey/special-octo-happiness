@@ -64,4 +64,4 @@ fn main() {
     };
     // Go to the fiat directory
     if !cond && !fiat_crypto.join(".git").exists() {
-        std::fs::remo
+        std::fs::remove_dir_al
