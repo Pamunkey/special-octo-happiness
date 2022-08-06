@@ -66,4 +66,4 @@ fn main() {
     if !cond && !fiat_crypto.join(".git").exists() {
         std::fs::remove_dir_all(&fiat_crypto).expect("could not remove fiat-crypto");
         std::fs::create_dir_all(&basedir.join("external"))
-            .expect("could 
+            .expect("could not cre
