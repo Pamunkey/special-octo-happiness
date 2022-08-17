@@ -67,4 +67,4 @@ fn main() {
         std::fs::remove_dir_all(&fiat_crypto).expect("could not remove fiat-crypto");
         std::fs::create_dir_all(&basedir.join("external"))
             .expect("could not create external subdirectory");
-        assert!(env::set_current_dir(&base
+        assert!(env::set_current_dir(&basedir.j
