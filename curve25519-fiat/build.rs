@@ -69,4 +69,5 @@ fn main() {
             .expect("could not create external subdirectory");
         assert!(env::set_current_dir(&basedir.join("external")).is_ok());
 
-        run("git", |command|
+        run("git", |command| {
+    
