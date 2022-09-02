@@ -70,4 +70,4 @@ fn main() {
         assert!(env::set_current_dir(&basedir.join("external")).is_ok());
 
         run("git", |command| {
-           
+            co
