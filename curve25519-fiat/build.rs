@@ -71,4 +71,5 @@ fn main() {
 
         run("git", |command| {
             command
-                .arg("clone
+                .arg("clone")
+  
