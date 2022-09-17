@@ -72,4 +72,4 @@ fn main() {
         run("git", |command| {
             command
                 .arg("clone")
-                .arg("--recurse-submod
+                .arg("--recurse-submodules"
