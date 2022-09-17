@@ -72,4 +72,5 @@ fn main() {
         run("git", |command| {
             command
                 .arg("clone")
-                .arg("--recurse-submodules"
+                .arg("--recurse-submodules")
+    
