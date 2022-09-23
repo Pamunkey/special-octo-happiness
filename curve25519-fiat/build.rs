@@ -73,4 +73,4 @@ fn main() {
             command
                 .arg("clone")
                 .arg("--recurse-submodules")
-                .arg("https://github.
+                .arg("https://github.com/m
