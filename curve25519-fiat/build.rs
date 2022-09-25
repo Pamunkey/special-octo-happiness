@@ -74,3 +74,4 @@ fn main() {
                 .arg("clone")
                 .arg("--recurse-submodules")
                 .arg("https://github.com/mit-plv/fiat-crypto.git")
+  
