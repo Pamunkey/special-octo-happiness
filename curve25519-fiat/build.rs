@@ -77,4 +77,4 @@ fn main() {
                 .arg("fiat-crypto")
         })
     }
-    ass
+    assert!(env
