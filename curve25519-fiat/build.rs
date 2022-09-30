@@ -77,4 +77,4 @@ fn main() {
                 .arg("fiat-crypto")
         })
     }
-    assert!(env
+    assert!(env::set_cu
