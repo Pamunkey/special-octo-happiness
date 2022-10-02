@@ -77,4 +77,4 @@ fn main() {
                 .arg("fiat-crypto")
         })
     }
-    assert!(env::set_current_dir(&fiat_crypto
+    assert!(env::set_current_dir(&fiat_crypto).is_o
