@@ -79,4 +79,4 @@ fn main() {
     }
     assert!(env::set_current_dir(&fiat_crypto).is_ok());
     if !cond {
-        // Checko
+        // Checkout a 
