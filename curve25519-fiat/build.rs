@@ -79,4 +79,5 @@ fn main() {
     }
     assert!(env::set_current_dir(&fiat_crypto).is_ok());
     if !cond {
-        // Checkout a particular dalek comm
+        // Checkout a particular dalek commit
+ 
