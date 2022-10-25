@@ -80,4 +80,4 @@ fn main() {
     assert!(env::set_current_dir(&fiat_crypto).is_ok());
     if !cond {
         // Checkout a particular dalek commit
-        run("git", |command| command.arg("checkout").arg(F
+        run("git", |command| command.arg("checkout").arg(FIAT_HASH
