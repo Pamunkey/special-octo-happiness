@@ -81,4 +81,5 @@ fn main() {
     if !cond {
         // Checkout a particular dalek commit
         run("git", |command| command.arg("checkout").arg(FIAT_HASH));
- 
+    }
+    let
