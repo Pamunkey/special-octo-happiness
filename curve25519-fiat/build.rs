@@ -82,4 +82,4 @@ fn main() {
         // Checkout a particular dalek commit
         run("git", |command| command.arg("checkout").arg(FIAT_HASH));
     }
-    let long_file = fiat_crypto.join("coqprime").join("
+    let long_file = fiat_crypto.join("coqprime").join("src").joi
