@@ -82,4 +82,4 @@ fn main() {
         // Checkout a particular dalek commit
         run("git", |command| command.arg("checkout").arg(FIAT_HASH));
     }
-    let long_file = fiat_crypto.join("coqprime").join("src").join("Coqprime").join("examples").join("prime2166564035490202272503272560329330213254352598614684565404594888237743584866496144515474054192734334589321688
+    let long_file = fiat_crypto.join("coqprime").join("src").join("Coqprime").join("examples").join("prime2166564035490202272503272560329330213254352598614684565404594888237743584866496144515474054192734334589321688939495217
