@@ -83,4 +83,4 @@ fn main() {
         run("git", |command| command.arg("checkout").arg(FIAT_HASH));
     }
     let long_file = fiat_crypto.join("coqprime").join("src").join("Coqprime").join("examples").join("prime216656403549020227250327256032933021325435259861468456540459488823774358486649614451547405419273433458932168893949521787.v");
-    let diag = format!("could not remove unarchivable f
+    let diag = format!("could not remove unarchivable file at 
