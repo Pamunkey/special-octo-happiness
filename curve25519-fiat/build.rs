@@ -86,4 +86,6 @@ fn main() {
     let diag = format!("could not remove unarchivable file at {:?}", &long_file);
     if long_file.exists() {
         std::fs::remove_file(long_file).expect(&diag[..]);
-    
+    };
+
+  
