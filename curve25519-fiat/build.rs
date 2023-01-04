@@ -88,4 +88,4 @@ fn main() {
         std::fs::remove_file(long_file).expect(&diag[..]);
     };
 
-    // Go to th
+    // Go to the b
