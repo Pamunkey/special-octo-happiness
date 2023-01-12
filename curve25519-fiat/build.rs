@@ -89,4 +89,4 @@ fn main() {
     };
 
     // Go to the base directory
-    assert!(
+    assert!(env::
