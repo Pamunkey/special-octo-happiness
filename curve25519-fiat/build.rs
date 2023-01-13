@@ -89,4 +89,4 @@ fn main() {
     };
 
     // Go to the base directory
-    assert!(env::set_current_dir(&based
+    assert!(env::set_current_dir(&basedir).is
