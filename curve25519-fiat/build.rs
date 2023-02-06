@@ -91,4 +91,4 @@ fn main() {
     // Go to the base directory
     assert!(env::set_current_dir(&basedir).is_ok());
 
-    // copy the curve25519_
+    // copy the curve25519_64 file 
