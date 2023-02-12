@@ -92,4 +92,4 @@ fn main() {
     assert!(env::set_current_dir(&basedir).is_ok());
 
     // copy the curve25519_64 file from fiat to src/
-    let origin_file
+    let origin_file = fiat_cry
