@@ -95,4 +95,5 @@ fn main() {
     let origin_file = fiat_crypto
         .join("fiat-rust")
         .join("src")
-        .join("curve25519_64.
+        .join("curve25519_64.rs");
+    
