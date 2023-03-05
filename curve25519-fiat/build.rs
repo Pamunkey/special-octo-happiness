@@ -97,4 +97,4 @@ fn main() {
         .join("src")
         .join("curve25519_64.rs");
     let diag = format!(
-        "could
+        "could not c
