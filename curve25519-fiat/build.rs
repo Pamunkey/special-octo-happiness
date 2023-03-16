@@ -98,4 +98,5 @@ fn main() {
         .join("curve25519_64.rs");
     let diag = format!(
         "could not copy source file from {:?} to {:?}",
-        &origin_file, &src_di
+        &origin_file, &src_dir,
+    )
