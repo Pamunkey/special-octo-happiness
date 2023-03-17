@@ -100,4 +100,4 @@ fn main() {
         "could not copy source file from {:?} to {:?}",
         &origin_file, &src_dir,
     );
-    std:
+    std::fs::
