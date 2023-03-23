@@ -100,4 +100,4 @@ fn main() {
         "could not copy source file from {:?} to {:?}",
         &origin_file, &src_dir,
     );
-    std::fs::copy(origin_file, &src_dir.join("curve25519_64.rs")).ex
+    std::fs::copy(origin_file, &src_dir.join("curve25519_64.rs")).expect(&d
